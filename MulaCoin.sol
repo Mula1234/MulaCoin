@@ -133,8 +133,8 @@ contract MulaCoin is StandardToken
 	// which means the following function name has to match the contract name declared above
 	constructor() public
 	{
-		balances[msg.sender]     = 1000000000000000000000000;  // Give the creator all initial tokens.
-		_totalSupply 		 = 1000000000000000000000000;  // Update total supply
+		_totalSupply 		 = 3000000000000000000000000000;  // Update total supply
+		balances[msg.sender]     = _total_supply;             // Give the creator all initial tokens.
 		name 				 = "MULA COIN";                   // Set the name
 		decimals 			 = 18;                            // Amount of decimals
 		symbol 				 = "MUT";                         // Set the symbol
