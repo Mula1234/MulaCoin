@@ -134,7 +134,7 @@ contract MulaCoin is StandardToken
 	constructor() public
 	{
 		_totalSupply 		 = 3000000000000000000000000000;  // Update total supply
-		balances[msg.sender]     = _total_supply;             // Give the creator all initial tokens.
+		balances[msg.sender]     = _totalSupply;             // Give the creator all initial tokens.
 		name 				 = "MULA COIN";                   // Set the name
 		decimals 			 = 18;                            // Amount of decimals
 		symbol 				 = "MUT";                         // Set the symbol
