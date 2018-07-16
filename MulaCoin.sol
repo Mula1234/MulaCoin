@@ -95,7 +95,7 @@ contract StandardToken is Token
 
 	mapping (address => uint256) balances;
 	mapping (address => mapping (address => uint256)) allowed;
-	uint256 _totalSupply;
+	uint256 private _totalSupply;
 }
 
 //Interface contract for approval callback
